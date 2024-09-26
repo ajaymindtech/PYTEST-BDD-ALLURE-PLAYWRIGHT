@@ -1,0 +1,6 @@
+
+pip install pytest-html
+
+pytest --html=reports/report.html --self-contained-html
+pytest --pdf=reports/report.pdf
+
